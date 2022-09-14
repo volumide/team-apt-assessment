@@ -11,6 +11,7 @@ html {
 }
 .body {
 	background-color: #fbf9f5;
+	min-height: 100vh;
 }
 
 .navbar.navbar-light {
