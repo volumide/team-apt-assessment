@@ -101,15 +101,15 @@ html {
 	position: absolute;
 	background: #f1e2ee;
 	height: 100%;
-	width: 100%;
-	right: -15%;
+	width: 115%;
+	right: -30%;
 	z-index: 0;
 }
 
 .p-background {
-	left: -20%;
+	left: -30%;
 	background: #ffe5de;
-	width: 108%;
+	width: 115%;
 	top: 0;
 	z-index: -1;
 }
