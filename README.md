@@ -18,3 +18,5 @@ You may also see any lint errors in the console.
 
 This page is not mobile responsive and may behave funny on smaller device. It is best cheked on a
 desktop or laptop screen
+
+Live url [https://glow-motion.netlify.app/](https://glow-motion.netlify.app/)
