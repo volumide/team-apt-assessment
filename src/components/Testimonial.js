@@ -69,6 +69,7 @@ export default function Testimonial() {
 						<motion.div
 							style={{ width: "25%", height: "100px", overflow: "hidden" }}
 							initial={{ opacity: 0, x: 500 }}
+							viewport={{ once: true, amount: 0.4 }}
 							whileInView={{ opacity: 1, x: 0 }}
 							transition={{ duration: `1.${i}` }}
 						>

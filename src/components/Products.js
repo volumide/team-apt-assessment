@@ -1,6 +1,7 @@
 import { Col, Container, Row, Image, Button } from "react-bootstrap";
 import HeroImg from "../assets/imgs/lotions/lotion.png";
 import { motion } from "framer-motion";
+import { ReactComponent as Arrow } from "../assets/imgs/socials/arrow.svg";
 
 export default function Products() {
 	const products = [1, 2, 3, 4, 5];
@@ -27,14 +28,16 @@ export default function Products() {
 							</p>
 							<div>
 								<Button
-									className="rounded-pill p-4 px-5 w-full"
+									className="rounded-pill p-3 px-5 w-full"
 									variant="md"
 									style={{
 										border: "2px solid rgb(244,105,59, 0.8)",
 										width: "70%",
+										color: "rgb(244,105,59, 0.8)",
+										fontWeight: "bold",
 									}}
 								>
-									Shop now
+									Browse All Products <Arrow fill="rgb(244,105,59, 0.8)" width="30px" />
 								</Button>
 							</div>
 						</motion.div>
@@ -43,7 +46,7 @@ export default function Products() {
 						<Col md={4} className="my-3 text-center">
 							<motion.div
 								initial={{ opacity: 0, x: 100 }}
-								viewport={{ once: false, amount: 0.4 }}
+								viewport={{ once: true, amount: 0.4 }}
 								whileInView={{ opacity: 1, x: -1 }}
 								transition={{ duration: `1.${i}` }}
 							>

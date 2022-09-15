@@ -35,7 +35,7 @@ const animateContainer = {
 	visible: {
 		opacity: 1,
 		scale: 1,
-		transition: { duration: 1.2, ease: "easeInOut" },
+		transition: { duration: 3, ease: "easeInOut" },
 	},
 };
 export default function Info() {
@@ -53,7 +53,7 @@ export default function Info() {
 							<Image src={lotion} width="100%" />
 						</motion.div>
 					</Col>
-					<Col className=" p-5 d-flex flex-column align-items-center justify-content-center info relative">
+					<Col className=" p-5 d-flex flex-column align-items-center justify-content-center info relative ">
 						<motion.div className="correction-tail " variants={animate}></motion.div>
 						<div className="side-img">
 							<motion.div className="overflow-hidden" variants={imageAnimate}>
@@ -61,7 +61,7 @@ export default function Info() {
 							</motion.div>
 						</div>
 						<motion.div
-							className="p-4 mt-5 px-5 brand-info"
+							className="p-4 px-5 brand-info "
 							style={{ width: "50%" }}
 							variants={wordAnimate}
 						>
